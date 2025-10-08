@@ -1,0 +1,145 @@
+---
+layout: landing
+---
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>{{ site.title }}</h2>
+							<p>{{ site.description | markdownify }}</p>
+							<ul class="actions">
+								<li><a href="#cta" class="button special">Activate</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>As Microsoft’s CEO aptly stated, <i>“Every company is now a software company.”</i></h2>
+								<p>This software-driven world exposes organizations to unprecedented digital risks. Understanding and strengthening your <span class="dp-label">digital posture</span> is no longer optional—it’s essential for resilience, trust, and long-term success.</p>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon fa-reorder major style1"><span class="label">Assess</span></span></li>
+								<li><span class="icon fa-shield major style2"><span class="label">Improve</span></span></li>
+								<li><span class="icon fa-lightbulb-o major style3"><span class="label">Inspire</span></span></li>
+							</ul>
+							<p>Building secure and trusted digital posture so every interaction inspires confidence.</p>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>Digital Posture</h2>
+								<p>Digital posture refers to the overall readiness, maturity, and resilience of an organization’s digital capabilities. Think of it as the organization’s “stance” in the digital economy—how well it can leverage technology to achieve strategic goals, adapt to disruption, and remain competitive.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>The Digital Posture can be analyzed under 3 key <a href="3dimensions.html"><span class="dp-dimensions-label">Dimensions</span></a></h2>
+{% for file in site.digital_posture %}
+	<p><a href="{{ file.url }}">{{ file.title }}</a></p>
+{% endfor %}
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+								<h2>Why should I care?</h2>
+								<p>Just like physical posture, training is pointless if done incorrectly. It requires proper movements supported by the right equipment, a personalized program with balanced nutrition, and correct standing. These are the same three dimensions essential for approaching digital posture.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>How to assess</h2>
+<p>The best way to assess your Digital Posture is through a structured maturity model assessment that gives you a holistic view of where your organization stands. A maturity model provides a framework to evaluate how advanced your organization is across critical dimensions—strategy, processes, technologies, governance, and culture.</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>The 3 Dimensions</h2>
+								<p>By structuring assessments into these three dimensions, organizations can balance people readiness, technical resilience, and external digital reputation—a holistic view of their digital posture.</p>
+							</header>
+							<ul class="features">
+								{% for file in site.digital_posture %}
+								<li class="icon {{ file.icon }} onerow">
+									<h3><a href="{{ file.url }}">{{ file.title }}</a></h3>
+									<p>{{ file.focus | strip_html | truncate: 150 }}</p>
+								</li>
+								{% endfor %}								
+							</ul>
+						</div>
+					</section>
+	<!-- CTA -->
+					<section id="cta" class="wrapper style4 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Contact Us</h2>
+								<p>Assess your posture, improve, inspire confidence.</p>
+							</header>
+							<section>
+								<form method="post" action="#">
+								<div class="row uniform">
+								<div class="6u 12u$(xsmall)">
+									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+								</div>
+								<div class="6u$ 12u$(xsmall)">
+									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+								</div>
+								<div class="12u$">
+									<div class="select-wrapper">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Sector -</option>
+											<option value="MAN">Manufacturing</option>
+											<option value="LOG">Logistics</option>
+											<option value="SVC">Services</option>
+											<option value="BAN">Bank/Financial</option>
+											<option value="OTH">Other</option>
+										</select>
+									</div>
+								</div>
+								<div class="12u$">
+									<div class="select-wrapper">
+										<select name="demo-function" id="demo-function">
+											<option value="">- Sector -</option>
+											<option value="CXO">C-Level</option>
+											<option value="DIR">Director</option>
+											<option value="MAN">Manager</option>
+											<option value="CON">Consultant</option>
+											<option value="STU">Student</option>
+											<option value="OTH">Other</option>
+										</select>
+									</div>
+								</div>
+								<div class="6u 12u$(small)">
+									<input type="checkbox" id="demo-copy" name="demo-copy" checked>
+									<label for="demo-copy">Email me a copy</label>
+								</div>
+								<div class="6u$ 12u$(small)">
+									<input type="checkbox" id="demo-human" name="demo-human">
+									<label for="demo-human">Not a robot</label>
+								</div>
+								<div class="12u$">
+									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+								<div class="12u$">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="fit special" /></li>
+										<li><input type="reset" value="Reset" class="fit"/></li>
+									</ul>
+								</div>
+							</div>	
+								</form>
+							</section>
+						</div>
+					</section>
+
+			
+
+
