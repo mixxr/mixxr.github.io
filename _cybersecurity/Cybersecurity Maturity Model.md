@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Cybersecurity Maturity Scoring Model
 focus: Cybersecurity
 extract: This model gives a holistic cybersecurity posture view across people, systems, and customer-facing trust.

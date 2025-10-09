@@ -77,14 +77,14 @@ layout: landing
 						</div>
 					</section>
 	<!-- CTA -->
-					<section id="cta" class="wrapper style4 special">
-						<div class="inner">
-							<header class="major">
+					<!-- <section id="cta" class="wrapper style4 special" style="border: 4px double green;">
+						<div class="inner" style="border: 4px double blue;">
+							<header class="major" style="border: 4px double pink;">
 								<h2>Contact Us</h2>
 								<p>Assess your posture, improve, inspire confidence.</p>
 							</header>
-							<section>
-								<form method="post" action="#">
+							<section style="border: 4px double red;">
+								<form method="post" action="#" style="border: 4px double yellow;">
 								<div class="row uniform">
 								<div class="6u 12u$(xsmall)">
 									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
@@ -138,7 +138,72 @@ layout: landing
 								</form>
 							</section>
 						</div>
-					</section>
+					</section> -->
+
+					
+    <!-- CTA -->
+    <section id="cta" class="wrapper style4 special">
+        <div class="inner" style="display:flex; flex-direction:column; gap:1rem; align-items:stretch;">
+            <header class="major" style="width:100%; order:0;">
+                <h2>Contact Us</h2>
+                <p>Assess your posture, improve, inspire confidence.</p>
+            </header>
+            <section style="width:100%; order:1;">
+                <form method="post" action="#" style="width:100%;">
+                    <div class="row uniform">
+                        <div class="6u 12u$(xsmall)">
+                            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                        </div>
+                        <div class="6u$ 12u$(xsmall)">
+                            <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                        </div>
+                        <div class="12u$">
+                            <div class="select-wrapper">
+                                <select name="demo-category" id="demo-category">
+                                    <option value="">- Sector -</option>
+                                    <option value="MAN">Manufacturing</option>
+                                    <option value="LOG">Logistics</option>
+                                    <option value="SVC">Services</option>
+                                    <option value="BAN">Bank/Financial</option>
+                                    <option value="OTH">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="12u$">
+                            <div class="select-wrapper">
+                                <select name="demo-function" id="demo-function">
+                                    <option value="">- Sector -</option>
+                                    <option value="CXO">C-Level</option>
+                                    <option value="DIR">Director</option>
+                                    <option value="MAN">Manager</option>
+                                    <option value="CON">Consultant</option>
+                                    <option value="STU">Student</option>
+                                    <option value="OTH">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="6u 12u$(small)">
+                            <input type="checkbox" id="demo-copy" name="demo-copy" checked>
+                            <label for="demo-copy">Email me a copy</label>
+                        </div>
+                        <div class="6u$ 12u$(small)">
+                            <input type="checkbox" id="demo-human" name="demo-human">
+                            <label for="demo-human">Not a robot</label>
+                        </div>
+                        <div class="12u$">
+                            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+                        </div>
+                        <div class="12u$">
+                            <ul class="actions vertical">
+                                <li><input type="submit" value="Send Message" class="fit special" /></li>
+                                <li><input type="reset" value="Reset" class="fit"/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </section>
 
 			
 
