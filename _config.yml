@@ -33,12 +33,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
+  # twitter: https://twitter.com/<username>
+  # github: https://github.com/<username>
+  # linkedin-square: https://linkedin.com/in/<username>
+  # facebook-official: https://facebook.com/<username>
+  # google-plus-square: https://plus.google.com/u/0/+<username>
+  email: ms.co.it@gmail.com
   #flickr:
   #instagram:
   #youtube-square:
