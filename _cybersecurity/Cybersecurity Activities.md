@@ -3,6 +3,7 @@ layout: page
 title: Cybersecurity Activities Across Dimensions
 focus: Cybersecurity
 extract: The Cybersecurity Activities Across Dimensions table maps common security practices to three organizational dimensions, Digital Culture & Skills, Digital Infrastructure & Processes, and Digital Presence & Support. 
+permalink: /cybersecurity/cybersecurity-activities-across-dimensions
 ---
 
 # {{ page. title }}
