@@ -4,17 +4,35 @@ title: Tools
 subtitle: Tools to assess the Digital Posture and its 3 Dimensions
 permalink: /tools
 ---
-	<h3>Tools</h3>
+	<h3>{{ page.title }}</h3>
 	<hr />
 	<h4>Cybersecurity</h4>
 				<ul>
 					{% for file in site.cybersecurity %}
-					<li><a href="{{ file.url }}">{{ file.title }}</a>: {{ file.extract }} <a href="{{ file.url }}">READ MORE</a></li><br/>
+					<li><b>{{ file.title }}</b>: {{ file.extract }} <a href="{{ file.url }}" aria-label="{{file.title}}">READ MORE</a></li><br/><!-- TO-DO: remove br-->
 					{% endfor %}
 				</ul>
 		<hr />
 	<h4>Accessibility</h4>
 	<ul>
-		<li>website</li>
-		<li>browser extensions</li>
+		<li>free on-line tools like:
+			<ul>
+				<li><a href="https://wave.webaim.org/" target="_blank" rel="noopener">WAVE</a>, interactive and you can visually navigate your site</li>
+				<li><a href="https://freeaccessibilitychecker.skynettechnologies.com/" target="_blank" rel="noopener">SKYNET TECHNOLOGIES</a>, very accurate</li>
+				<li><a href="https://www.achecker.ca/" target="_blank" rel="noopener">AChecker</a></li>
+				<li><a href="https://www.tenon.io/" target="_blank" rel="noopener">Tenon</a></li>
+				<li><a href="https://www.axe.dev/" target="_blank" rel="noopener">Axe</a></li>
+				<li><a href="https://www.accessibilitychecker.org/" target="_blank" rel="noopener">Accessibility Checker</a></li>
+			</ul> 
+		</li>
+		<li><a href="https://www.w3.org/WAI/test-evaluate/tools/list/" target="_blank" rel="noopener">Web Accessibility Evaluation Tools List</a> is a list maintained by the <b>W3.org</b></li><br/><!-- TO-DO: remove br-->
+		<li>Browser extensions:
+			<ul>
+				<li><a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh" target="_blank" rel="noopener">WAVE</a> for Chrome and Firefox</li>
+				<li><a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd" target="_blank" rel="noopener">Axe</a> for Chrome and Firefox</li>
+				<li><a href="https://chrome.google.com/webstore/detail/accessibility-insights-fo/eeoeknnddmdmkkkmdjbdcgkikijjodee" target="_blank" rel="noopener">Accessibility Insights for Web</a> for Chrome and Edge</li>
+				<li><a href="https://addons.mozilla.org/en-US/firefox/addon/accessibility-insights-for-firefox/" target="_blank" rel="noopener">Accessibility Insights for Firefox</a> for Firefox</li>
+			</ul>
+		</li>
+		<li><b>Lighthouse</b>, typically it is part of browser's dev tools (F12) in common browsers</li>
 	</ul>

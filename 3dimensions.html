@@ -9,15 +9,15 @@ permalink: /3dimensions
 				<p>The Digital Posture can be analyzed under 3 key Dimensions:</p>
 				<ol>
 					{% for file in site.digital_posture %}
-						<li><b>{{ file.title }}</b>: {{ file.focus }} <a href="{{ file.url }}">READ MORE</a></li><br/>
+						<li><b>{{ file.title }}</b>: {{ file.focus }} <a href="{{ file.url }}" aria-label="{{file.title}}">READ MORE</a></li><br/>
 					{% endfor %}
 				</ol>
 				<p>By structuring assessments into these three dimensions, organizations can balance people readiness, technical resilience, and external digital reputation—a holistic view of their digital posture.</p>
 				<hr />
 			</section>
 			<section>
-				<h4>Assessing Digital Posture</h4>
-				<h5>A Strategic Lens on Organizational Readiness</h5>
+				<h3>Assessing Digital Posture</h3>
+				<h4>A Strategic Lens on Organizational Readiness</h4>
 				<p>In an era where digital transformation defines competitive advantage, assessing an organization's digital posture is no longer optional—it's essential. This multidimensional evaluation framework offers a structured approach to understanding how well an organization is equipped to thrive in a digital-first world. By examining three core dimensions—Digital Culture & Skills, Digital Infrastructure & Processes, and Digital Presence & Support—leaders can identify strengths, uncover gaps, and prioritize investments.</p>
 				<div class="table-wrapper">
 				<table>
@@ -52,7 +52,7 @@ permalink: /3dimensions
 				<p>Cybersecurity is undeniably one of the most critical components of digital posture. It safeguards systems, data, and operations from threats that could cripple an organization. Tools like cybersecurity frameworks, penetration testing, and disaster recovery drills help assess how resilient and secure an organization truly is.</p>
 				<ul>
 					{% for file in site.cybersecurity %}
-					<li><b>{{ file.title }}</b>: {{ file.extract }} <a href="{{ file.url }}">READ MORE</a></li><br/>
+					<li><b>{{ file.title }}</b>: {{ file.extract }} <a href="{{ file.url }}" aria-label="{{file.title}}">READ MORE</a></li><br/>
 					{% endfor %}
 				</ul>
 			</section>

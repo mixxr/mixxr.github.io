@@ -6,7 +6,7 @@ extract: The Cybersecurity Activities Across Dimensions table maps common securi
 permalink: /cybersecurity/cybersecurity-activities-across-dimensions
 ---
 
-# {{ page. title }}
+### {{ page. title }}
 
 **Focus**: {{ page.focus }}
 
@@ -26,13 +26,13 @@ Its purpose is to show that cybersecurity is not just a technical issue—it spa
 | **Social Engineering Simulations** | ✅ Tests human awareness | – | – |
 | **Public-Facing Security Signals** (privacy policies, trust badges, transparent breach communication) | – | – | ✅ Reinforces customer confidence |
 
-## How to use it
+#### How to use it
 - **Identify coverage** → See which activities your organization already performs and in which dimension they belong.  
 - **Spot gaps** → Notice areas where activities are missing (e.g., strong infrastructure but weak awareness training).  
 - **Prioritize improvements** → Focus resources on the dimensions with the most critical gaps or lowest maturity.  
 - **Communicate clearly** → Use the table to explain to leadership and staff that cybersecurity is a shared responsibility across culture, technology, and customer engagement.  
 
-## Executive Summary  
+#### Executive Summary  
 Cybersecurity is not confined to firewalls and IT systems—it is a multidimensional responsibility that spans people, processes, and customer trust. The **Cybersecurity Activities Across Dimensions** table illustrates how different security practices align with three critical areas: **Digital Culture & Skills**, **Digital Infrastructure & Processes**, and **Digital Presence & Support**. By mapping activities in this way, organizations can clearly see that effective protection requires both human awareness and technical resilience, as well as visible trust-building with customers.  
 
 This framework helps leaders quickly identify strengths, uncover blind spots, and prioritize investments. For example, an organization may have strong infrastructure but weak employee awareness, or robust internal defenses but limited transparency with customers. Using the table as a guide, decision-makers can ensure that cybersecurity strategy is balanced, comprehensive, and aligned with business goals.  
