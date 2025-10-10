@@ -13,7 +13,7 @@ exclude: [3dimensions_copy.html]
 
 email: digital.posture.info@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mixxr.github.io"
+url: "http://digital-posture.com"
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)

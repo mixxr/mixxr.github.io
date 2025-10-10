@@ -21,7 +21,8 @@
 			$body = $('body'),
 			$wrapper = $('#page-wrapper'),
 			$banner = $('#banner'),
-			$header = $('#header');
+			$header = $('#header'),
+			$footer = $('footer');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -64,7 +65,7 @@
 
 		// Menu.
 			$('#menu')
-				.append('<a href="#menu" class="close" alt="close"></a>')
+				.append('<a href="#menu" class="close" alt="close">Close</a>')
 				.appendTo($body)
 				.panel({
 					delay: 500,

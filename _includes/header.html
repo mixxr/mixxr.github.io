@@ -1,10 +1,10 @@
 <!-- Header -->
-<div id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
+<div id="header"{% if page.layout == 'landing' %} class="alt"{% endif %} role="header">
   <h1><a href="/">{{ site.title }}</a></h1>
   <nav id="nav">
     <ul>
       <li class="special">
-        <a href="#menu" class="menuToggle" aria-hidden="true"><span>Menu</span></a>
+        <a href="#menu" class="menuToggle" aria-hidden="true" tabindex="-1"><span>Menu</span></a>
         <div id="menu">
           <ul>
             <li><a href="/" aria-label="Home">Home</a></li>
