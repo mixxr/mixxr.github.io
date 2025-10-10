@@ -6,12 +6,12 @@ title: DIGITAL POSTURE
 description: |
   stay inspired, 
   inspire confidence    
-owner: MAS # or company name
+owner: Digital Posture # or company name
 
 first_published: 2025 # if migrating another site, the year of your first publish
 exclude: [3dimensions_copy.html]
 
-email: ms.co.it@gmail.com
+email: digital.posture.info@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mixxr.github.io"
 # If you're hosting your site at a Project repository on GitHub pages
@@ -38,7 +38,7 @@ social:
   # linkedin-square: https://linkedin.com/in/<username>
   # facebook-official: https://facebook.com/<username>
   # google-plus-square: https://plus.google.com/u/0/+<username>
-  email: ms.co.it@gmail.com
+  email: digital.posture.info@gmail.com
   #flickr:
   #instagram:
   #youtube-square:

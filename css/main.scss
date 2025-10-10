@@ -341,7 +341,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		height: _size(element-height);
 	}
 	select {
-		background-color: rgba(43, 37, 37, 0.25); // TODO: adjust bg-color
+		background-color: rgba(32, 30, 30, 0.25); // TODO: adjust bg-color
+		 option {
+            background-color: rgba(32, 30, 30, 0.85) !important;
+        }
 	}
 
 	textarea {
