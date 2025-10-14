@@ -9,7 +9,7 @@ description: |
 owner: Digital Posture # or company name
 
 first_published: 2025 # if migrating another site, the year of your first publish
-exclude: [3dimensions_copy.html]
+exclude: ["*_copy.html", "*.txt", "**/*.old"]
 
 email: digital.posture.info@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
