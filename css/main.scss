@@ -285,13 +285,18 @@ $baseurl: '{{ site.baseurl }}/images';
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 	}
 
+				option {
+				background: #141414 !important;
+				color: white !important;
+			}
+
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
-		background: _palette(border-bg);
+		background: _palette(border-bg); // used in contact form
 		border-radius: 3px;
 		border: none;
 		color: inherit;
@@ -340,12 +345,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	select {
 		height: _size(element-height);
 	}
-	select {
-		background-color: rgba(32, 30, 30, 0.25); // TODO: adjust bg-color
-		 option {
-            background-color: rgba(32, 30, 30, 0.85) !important;
-        }
-	}
+
 
 	textarea {
 		padding: 0.75em 1em;
@@ -1099,7 +1099,6 @@ $baseurl: '{{ site.baseurl }}/images';
 			textarea {
 				background: _palette($p, border-bg);
 			}
-
 			.select-wrapper {
 				&:before {
 					color: _palette($p, border);
